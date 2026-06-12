@@ -1,0 +1,5234 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "domain_model_entities",
+        "label": "Domain Model Entities",
+        "nodes": [
+          "foldernode_foldernode",
+          "imageitem_imageitem",
+          "imagemetadata_imagemetadata"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.95,
+        "source_file": "Domain/Models/FolderNode.swift"
+      },
+      {
+        "id": "fast_keyboard_culling_workflow",
+        "label": "Fast Keyboard Culling Workflow",
+        "nodes": [
+          "appviewmodel_appviewmodel",
+          "imagedetailview_imagedetailview",
+          "imagegridview_imagegridview",
+          "readme_acdsee_culling_shortcuts"
+        ],
+        "relation": "implement",
+        "confidence": "INFERRED",
+        "confidence_score": 0.95,
+        "source_file": "README.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "Package.swift",
+      "file_type": "code",
+      "source_file": "Package.swift",
+      "source_location": "L1",
+      "id": "package_swift",
+      "community": 17,
+      "norm_label": "package.swift"
+    },
+    {
+      "label": "ProjectLuminaApp.swift",
+      "file_type": "code",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L1",
+      "id": "app_projectluminaapp_swift",
+      "community": 2,
+      "norm_label": "projectluminaapp.swift"
+    },
+    {
+      "label": "AppDelegate",
+      "file_type": "code",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L4",
+      "id": "app_projectluminaapp_appdelegate",
+      "community": 2,
+      "norm_label": "appdelegate"
+    },
+    {
+      "label": "NSObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "nsobject",
+      "community": 2,
+      "norm_label": "nsobject"
+    },
+    {
+      "label": "NSApplicationDelegate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "nsapplicationdelegate",
+      "community": 2,
+      "norm_label": "nsapplicationdelegate"
+    },
+    {
+      "label": ".applicationDidFinishLaunching()",
+      "file_type": "code",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L7",
+      "id": "app_projectluminaapp_appdelegate_applicationdidfinishlaunching",
+      "community": 2,
+      "norm_label": ".applicationdidfinishlaunching()"
+    },
+    {
+      "label": ".applicationWillTerminate()",
+      "file_type": "code",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L79",
+      "id": "app_projectluminaapp_appdelegate_applicationwillterminate",
+      "community": 2,
+      "norm_label": ".applicationwillterminate()"
+    },
+    {
+      "label": ".isEditingText()",
+      "file_type": "code",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L85",
+      "id": "app_projectluminaapp_appdelegate_iseditingtext",
+      "community": 2,
+      "norm_label": ".iseditingtext()"
+    },
+    {
+      "label": "ProjectLuminaApp",
+      "file_type": "code",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L100",
+      "id": "app_projectluminaapp_projectluminaapp",
+      "community": 2,
+      "norm_label": "projectluminaapp"
+    },
+    {
+      "label": "App",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "app",
+      "community": 2,
+      "norm_label": "app"
+    },
+    {
+      "label": "SecurityScopedBookmarkManager.swift",
+      "file_type": "code",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L1",
+      "id": "app_security_securityscopedbookmarkmanager_swift",
+      "community": 9,
+      "norm_label": "securityscopedbookmarkmanager.swift"
+    },
+    {
+      "label": "SecurityScopedBookmarkManager",
+      "file_type": "code",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L4",
+      "id": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager",
+      "community": 9,
+      "norm_label": "securityscopedbookmarkmanager"
+    },
+    {
+      "label": "Sendable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "sendable",
+      "community": 5,
+      "norm_label": "sendable"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L10",
+      "id": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_init",
+      "community": 9,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".selectFolder()",
+      "file_type": "code",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L15",
+      "id": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_selectfolder",
+      "community": 9,
+      "norm_label": ".selectfolder()"
+    },
+    {
+      "label": ".saveBookmark()",
+      "file_type": "code",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L42",
+      "id": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_savebookmark",
+      "community": 9,
+      "norm_label": ".savebookmark()"
+    },
+    {
+      "label": ".loadSavedBookmarks()",
+      "file_type": "code",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L70",
+      "id": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_loadsavedbookmarks",
+      "community": 9,
+      "norm_label": ".loadsavedbookmarks()"
+    },
+    {
+      "label": ".performAccessingSecurityScopedResource()",
+      "file_type": "code",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L110",
+      "id": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_performaccessingsecurityscopedresource",
+      "community": 9,
+      "norm_label": ".performaccessingsecurityscopedresource()"
+    },
+    {
+      "label": "AppSettings.swift",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L1",
+      "id": "infrastructure_configuration_appsettings_swift",
+      "community": 5,
+      "norm_label": "appsettings.swift"
+    },
+    {
+      "label": "AppSettings",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L3",
+      "id": "configuration_appsettings_appsettings",
+      "community": 5,
+      "norm_label": "appsettings"
+    },
+    {
+      "label": "Codable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "codable",
+      "community": 5,
+      "norm_label": "codable"
+    },
+    {
+      "label": "AppConfiguration",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L4",
+      "id": "configuration_appsettings_appconfiguration",
+      "community": 5,
+      "norm_label": "appconfiguration"
+    },
+    {
+      "label": "CodingKeys",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L9",
+      "id": "configuration_appsettings_codingkeys",
+      "community": 3,
+      "norm_label": "codingkeys"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "string",
+      "community": 7,
+      "norm_label": "string"
+    },
+    {
+      "label": "CodingKey",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "codingkey",
+      "community": 3,
+      "norm_label": "codingkey"
+    },
+    {
+      "label": "environment",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L10",
+      "id": "configuration_appsettings_codingkeys_environment",
+      "community": 3,
+      "norm_label": "environment"
+    },
+    {
+      "label": "maxMemoryCacheMegabytes",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L11",
+      "id": "configuration_appsettings_codingkeys_maxmemorycachemegabytes",
+      "community": 3,
+      "norm_label": "maxmemorycachemegabytes"
+    },
+    {
+      "label": "diskCacheLimitGigabytes",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L12",
+      "id": "configuration_appsettings_codingkeys_diskcachelimitgigabytes",
+      "community": 3,
+      "norm_label": "diskcachelimitgigabytes"
+    },
+    {
+      "label": "FileSystemSettings",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L16",
+      "id": "configuration_appsettings_filesystemsettings",
+      "community": 5,
+      "norm_label": "filesystemsettings"
+    },
+    {
+      "label": "supportedExtensions",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L22",
+      "id": "configuration_appsettings_codingkeys_supportedextensions",
+      "community": 3,
+      "norm_label": "supportedextensions"
+    },
+    {
+      "label": "enableRealtimeFSEvents",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L23",
+      "id": "configuration_appsettings_codingkeys_enablerealtimefsevents",
+      "community": 3,
+      "norm_label": "enablerealtimefsevents"
+    },
+    {
+      "label": "fsEventsDebounceMilliseconds",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L24",
+      "id": "configuration_appsettings_codingkeys_fseventsdebouncemilliseconds",
+      "community": 3,
+      "norm_label": "fseventsdebouncemilliseconds"
+    },
+    {
+      "label": "RenderingSettings",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L28",
+      "id": "configuration_appsettings_renderingsettings",
+      "community": 5,
+      "norm_label": "renderingsettings"
+    },
+    {
+      "label": "ThumbnailSizeSettings",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L30",
+      "id": "configuration_appsettings_thumbnailsizesettings",
+      "community": 5,
+      "norm_label": "thumbnailsizesettings"
+    },
+    {
+      "label": "width",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L35",
+      "id": "configuration_appsettings_codingkeys_width",
+      "community": 3,
+      "norm_label": "width"
+    },
+    {
+      "label": "height",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L36",
+      "id": "configuration_appsettings_codingkeys_height",
+      "community": 3,
+      "norm_label": "height"
+    },
+    {
+      "label": "targetFPS",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L43",
+      "id": "configuration_appsettings_codingkeys_targetfps",
+      "community": 3,
+      "norm_label": "targetfps"
+    },
+    {
+      "label": "thumbnailSize",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L44",
+      "id": "configuration_appsettings_codingkeys_thumbnailsize",
+      "community": 3,
+      "norm_label": "thumbnailsize"
+    },
+    {
+      "label": "useMetalAcceleration",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L45",
+      "id": "configuration_appsettings_codingkeys_usemetalacceleration",
+      "community": 3,
+      "norm_label": "usemetalacceleration"
+    },
+    {
+      "label": "LoggingSettings",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L49",
+      "id": "configuration_appsettings_loggingsettings",
+      "community": 5,
+      "norm_label": "loggingsettings"
+    },
+    {
+      "label": "subsystem",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L55",
+      "id": "configuration_appsettings_codingkeys_subsystem",
+      "community": 3,
+      "norm_label": "subsystem"
+    },
+    {
+      "label": "logLevel",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L56",
+      "id": "configuration_appsettings_codingkeys_loglevel",
+      "community": 3,
+      "norm_label": "loglevel"
+    },
+    {
+      "label": "logToDisk",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L57",
+      "id": "configuration_appsettings_codingkeys_logtodisk",
+      "community": 3,
+      "norm_label": "logtodisk"
+    },
+    {
+      "label": "appConfiguration",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L67",
+      "id": "configuration_appsettings_codingkeys_appconfiguration",
+      "community": 3,
+      "norm_label": "appconfiguration"
+    },
+    {
+      "label": "fileSystem",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L68",
+      "id": "configuration_appsettings_codingkeys_filesystem",
+      "community": 3,
+      "norm_label": "filesystem"
+    },
+    {
+      "label": "rendering",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L69",
+      "id": "configuration_appsettings_codingkeys_rendering",
+      "community": 3,
+      "norm_label": "rendering"
+    },
+    {
+      "label": "logging",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L70",
+      "id": "configuration_appsettings_codingkeys_logging",
+      "community": 3,
+      "norm_label": "logging"
+    },
+    {
+      "label": "MemoryCache.swift",
+      "file_type": "code",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L1",
+      "id": "infrastructure_cache_memorycache_swift",
+      "community": 2,
+      "norm_label": "memorycache.swift"
+    },
+    {
+      "label": "MemoryCache",
+      "file_type": "code",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L4",
+      "id": "cache_memorycache_memorycache",
+      "community": 2,
+      "norm_label": "memorycache"
+    },
+    {
+      "label": "CacheEntry",
+      "file_type": "code",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L7",
+      "id": "cache_memorycache_cacheentry",
+      "community": 2,
+      "norm_label": "cacheentry"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L11",
+      "id": "cache_memorycache_cacheentry_init",
+      "community": 2,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L19",
+      "id": "cache_memorycache_memorycache_init",
+      "community": 2,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".get()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L32",
+      "id": "cache_memorycache_memorycache_get",
+      "community": 2,
+      "norm_label": ".get()"
+    },
+    {
+      "label": ".set()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L44",
+      "id": "cache_memorycache_memorycache_set",
+      "community": 2,
+      "norm_label": ".set()"
+    },
+    {
+      "label": ".clear()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L53",
+      "id": "cache_memorycache_memorycache_clear",
+      "community": 2,
+      "norm_label": ".clear()"
+    },
+    {
+      "label": "DirectoryMonitor.swift",
+      "file_type": "code",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L1",
+      "id": "infrastructure_filesystem_directorymonitor_swift",
+      "community": 10,
+      "norm_label": "directorymonitor.swift"
+    },
+    {
+      "label": "DirectoryMonitor",
+      "file_type": "code",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L5",
+      "id": "filesystem_directorymonitor_directorymonitor",
+      "community": 10,
+      "norm_label": "directorymonitor"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L13",
+      "id": "filesystem_directorymonitor_directorymonitor_init",
+      "community": 10,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".startMonitoring()",
+      "file_type": "code",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L23",
+      "id": "filesystem_directorymonitor_directorymonitor_startmonitoring",
+      "community": 10,
+      "norm_label": ".startmonitoring()"
+    },
+    {
+      "label": ".stopMonitoring()",
+      "file_type": "code",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L90",
+      "id": "filesystem_directorymonitor_directorymonitor_stopmonitoring",
+      "community": 10,
+      "norm_label": ".stopmonitoring()"
+    },
+    {
+      "label": ".handleFSEvents()",
+      "file_type": "code",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L102",
+      "id": "filesystem_directorymonitor_directorymonitor_handlefsevents",
+      "community": 10,
+      "norm_label": ".handlefsevents()"
+    },
+    {
+      "label": ".deinit()",
+      "file_type": "code",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L110",
+      "id": "filesystem_directorymonitor_directorymonitor_deinit",
+      "community": 10,
+      "norm_label": ".deinit()"
+    },
+    {
+      "label": "LoggerManager.swift",
+      "file_type": "code",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L1",
+      "id": "infrastructure_logging_loggermanager_swift",
+      "community": 7,
+      "norm_label": "loggermanager.swift"
+    },
+    {
+      "label": "LogLevel",
+      "file_type": "code",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L4",
+      "id": "logging_loggermanager_loglevel",
+      "community": 7,
+      "norm_label": "loglevel"
+    },
+    {
+      "label": "debug",
+      "file_type": "code",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L5",
+      "id": "logging_loggermanager_loglevel_debug",
+      "community": 7,
+      "norm_label": "debug"
+    },
+    {
+      "label": "info",
+      "file_type": "code",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L6",
+      "id": "logging_loggermanager_loglevel_info",
+      "community": 7,
+      "norm_label": "info"
+    },
+    {
+      "label": "error",
+      "file_type": "code",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L7",
+      "id": "logging_loggermanager_loglevel_error",
+      "community": 7,
+      "norm_label": "error"
+    },
+    {
+      "label": "LoggerManager",
+      "file_type": "code",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L10",
+      "id": "logging_loggermanager_loggermanager",
+      "community": 7,
+      "norm_label": "loggermanager"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L20",
+      "id": "logging_loggermanager_loggermanager_init",
+      "community": 7,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".setupLogFile()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L41",
+      "id": "logging_loggermanager_loggermanager_setuplogfile",
+      "community": 7,
+      "norm_label": ".setuplogfile()"
+    },
+    {
+      "label": ".log()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L65",
+      "id": "logging_loggermanager_loggermanager_log",
+      "community": 7,
+      "norm_label": ".log()"
+    },
+    {
+      "label": ".deinit()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L98",
+      "id": "logging_loggermanager_loggermanager_deinit",
+      "community": 7,
+      "norm_label": ".deinit()"
+    },
+    {
+      "label": "ImageLoaderService.swift",
+      "file_type": "code",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L1",
+      "id": "infrastructure_services_imageloaderservice_swift",
+      "community": 8,
+      "norm_label": "imageloaderservice.swift"
+    },
+    {
+      "label": "ImageLoaderService",
+      "file_type": "code",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L5",
+      "id": "services_imageloaderservice_imageloaderservice",
+      "community": 8,
+      "norm_label": "imageloaderservice"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L13",
+      "id": "services_imageloaderservice_imageloaderservice_init",
+      "community": 8,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".loadThumbnail()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L20",
+      "id": "services_imageloaderservice_imageloaderservice_loadthumbnail",
+      "community": 8,
+      "norm_label": ".loadthumbnail()"
+    },
+    {
+      "label": ".extractMetadata()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L56",
+      "id": "services_imageloaderservice_imageloaderservice_extractmetadata",
+      "community": 8,
+      "norm_label": ".extractmetadata()"
+    },
+    {
+      "label": ".calculateLuminanceHistogram()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L115",
+      "id": "services_imageloaderservice_imageloaderservice_calculateluminancehistogram",
+      "community": 8,
+      "norm_label": ".calculateluminancehistogram()"
+    },
+    {
+      "label": "ConcurrencyLimiter",
+      "file_type": "code",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L152",
+      "id": "services_imageloaderservice_concurrencylimiter",
+      "community": 8,
+      "norm_label": "concurrencylimiter"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L157",
+      "id": "services_imageloaderservice_concurrencylimiter_init",
+      "community": 8,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".enter()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L161",
+      "id": "services_imageloaderservice_concurrencylimiter_enter",
+      "community": 8,
+      "norm_label": ".enter()"
+    },
+    {
+      "label": ".exit()",
+      "file_type": "code",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L171",
+      "id": "services_imageloaderservice_concurrencylimiter_exit",
+      "community": 8,
+      "norm_label": ".exit()"
+    },
+    {
+      "label": "ExifCacheRepository.swift",
+      "file_type": "code",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L1",
+      "id": "data_repositories_exifcacherepository_swift",
+      "community": 4,
+      "norm_label": "exifcacherepository.swift"
+    },
+    {
+      "label": "ExifCacheRepository",
+      "file_type": "code",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L4",
+      "id": "repositories_exifcacherepository_exifcacherepository",
+      "community": 4,
+      "norm_label": "exifcacherepository"
+    },
+    {
+      "label": "ExifCacheRepositoryProtocol",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "exifcacherepositoryprotocol",
+      "community": 4,
+      "norm_label": "exifcacherepositoryprotocol"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L7",
+      "id": "repositories_exifcacherepository_exifcacherepository_init",
+      "community": 4,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".getMetadata()",
+      "file_type": "code",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L11",
+      "id": "repositories_exifcacherepository_exifcacherepository_getmetadata",
+      "community": 4,
+      "norm_label": ".getmetadata()"
+    },
+    {
+      "label": ".saveMetadata()",
+      "file_type": "code",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L61",
+      "id": "repositories_exifcacherepository_exifcacherepository_savemetadata",
+      "community": 4,
+      "norm_label": ".savemetadata()"
+    },
+    {
+      "label": ".updateRating()",
+      "file_type": "code",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L144",
+      "id": "repositories_exifcacherepository_exifcacherepository_updaterating",
+      "community": 4,
+      "norm_label": ".updaterating()"
+    },
+    {
+      "label": ".updateTagged()",
+      "file_type": "code",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L152",
+      "id": "repositories_exifcacherepository_exifcacherepository_updatetagged",
+      "community": 4,
+      "norm_label": ".updatetagged()"
+    },
+    {
+      "label": "FileSystemRepositoryProtocol.swift",
+      "file_type": "code",
+      "source_file": "Data/Repositories/FileSystemRepositoryProtocol.swift",
+      "source_location": "L1",
+      "id": "data_repositories_filesystemrepositoryprotocol_swift",
+      "community": 5,
+      "norm_label": "filesystemrepositoryprotocol.swift"
+    },
+    {
+      "label": "FileSystemRepositoryProtocol",
+      "file_type": "code",
+      "source_file": "Data/Repositories/FileSystemRepositoryProtocol.swift",
+      "source_location": "L4",
+      "id": "repositories_filesystemrepositoryprotocol_filesystemrepositoryprotocol",
+      "community": 5,
+      "norm_label": "filesystemrepositoryprotocol"
+    },
+    {
+      "label": "FileSystemRepository.swift",
+      "file_type": "code",
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L1",
+      "id": "data_repositories_filesystemrepository_swift",
+      "community": 2,
+      "norm_label": "filesystemrepository.swift"
+    },
+    {
+      "label": "FileSystemRepository",
+      "file_type": "code",
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L3",
+      "id": "repositories_filesystemrepository_filesystemrepository",
+      "community": 2,
+      "norm_label": "filesystemrepository"
+    },
+    {
+      "label": "FileSystemRepositoryProtocol",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "filesystemrepositoryprotocol",
+      "community": 2,
+      "norm_label": "filesystemrepositoryprotocol"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L4",
+      "id": "repositories_filesystemrepository_filesystemrepository_init",
+      "community": 2,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".loadSubfolders()",
+      "file_type": "code",
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L6",
+      "id": "repositories_filesystemrepository_filesystemrepository_loadsubfolders",
+      "community": 2,
+      "norm_label": ".loadsubfolders()"
+    },
+    {
+      "label": ".loadImages()",
+      "file_type": "code",
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L41",
+      "id": "repositories_filesystemrepository_filesystemrepository_loadimages",
+      "community": 2,
+      "norm_label": ".loadimages()"
+    },
+    {
+      "label": "SQLiteDatabase.swift",
+      "file_type": "code",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L1",
+      "id": "data_local_sqlitedatabase_swift",
+      "community": 11,
+      "norm_label": "sqlitedatabase.swift"
+    },
+    {
+      "label": "SQLiteDatabase",
+      "file_type": "code",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L4",
+      "id": "local_sqlitedatabase_sqlitedatabase",
+      "community": 11,
+      "norm_label": "sqlitedatabase"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L8",
+      "id": "local_sqlitedatabase_sqlitedatabase_init",
+      "community": 11,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".deinit()",
+      "file_type": "code",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L51",
+      "id": "local_sqlitedatabase_sqlitedatabase_deinit",
+      "community": 11,
+      "norm_label": ".deinit()"
+    },
+    {
+      "label": ".executeStatic()",
+      "file_type": "code",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L57",
+      "id": "local_sqlitedatabase_sqlitedatabase_executestatic",
+      "community": 11,
+      "norm_label": ".executestatic()"
+    },
+    {
+      "label": ".execute()",
+      "file_type": "code",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L70",
+      "id": "local_sqlitedatabase_sqlitedatabase_execute",
+      "community": 11,
+      "norm_label": ".execute()"
+    },
+    {
+      "label": ".query()",
+      "file_type": "code",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L88",
+      "id": "local_sqlitedatabase_sqlitedatabase_query",
+      "community": 11,
+      "norm_label": ".query()"
+    },
+    {
+      "label": "ExifCacheRepositoryProtocol.swift",
+      "file_type": "code",
+      "source_file": "Domain/Repositories/ExifCacheRepositoryProtocol.swift",
+      "source_location": "L1",
+      "id": "domain_repositories_exifcacherepositoryprotocol_swift",
+      "community": 5,
+      "norm_label": "exifcacherepositoryprotocol.swift"
+    },
+    {
+      "label": "ExifCacheRepositoryProtocol",
+      "file_type": "code",
+      "source_file": "Domain/Repositories/ExifCacheRepositoryProtocol.swift",
+      "source_location": "L3",
+      "id": "repositories_exifcacherepositoryprotocol_exifcacherepositoryprotocol",
+      "community": 5,
+      "norm_label": "exifcacherepositoryprotocol"
+    },
+    {
+      "label": "FolderNode.swift",
+      "file_type": "code",
+      "source_file": "Domain/Models/FolderNode.swift",
+      "source_location": "L1",
+      "id": "domain_models_foldernode_swift",
+      "community": 4,
+      "norm_label": "foldernode.swift"
+    },
+    {
+      "label": "FolderNode",
+      "file_type": "code",
+      "source_file": "Domain/Models/FolderNode.swift",
+      "source_location": "L4",
+      "id": "models_foldernode_foldernode",
+      "community": 4,
+      "norm_label": "foldernode"
+    },
+    {
+      "label": "Identifiable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "identifiable",
+      "community": 4,
+      "norm_label": "identifiable"
+    },
+    {
+      "label": "Equatable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "equatable",
+      "community": 4,
+      "norm_label": "equatable"
+    },
+    {
+      "label": "Hashable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "hashable",
+      "community": 4,
+      "norm_label": "hashable"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Domain/Models/FolderNode.swift",
+      "source_location": "L10",
+      "id": "models_foldernode_foldernode_init",
+      "community": 4,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "ImageMetadata.swift",
+      "file_type": "code",
+      "source_file": "Domain/Models/ImageMetadata.swift",
+      "source_location": "L1",
+      "id": "domain_models_imagemetadata_swift",
+      "community": 4,
+      "norm_label": "imagemetadata.swift"
+    },
+    {
+      "label": "ImageMetadata",
+      "file_type": "code",
+      "source_file": "Domain/Models/ImageMetadata.swift",
+      "source_location": "L3",
+      "id": "models_imagemetadata_imagemetadata",
+      "community": 4,
+      "norm_label": "imagemetadata"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Domain/Models/ImageMetadata.swift",
+      "source_location": "L20",
+      "id": "models_imagemetadata_imagemetadata_init",
+      "community": 4,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "ImageItem.swift",
+      "file_type": "code",
+      "source_file": "Domain/Models/ImageItem.swift",
+      "source_location": "L1",
+      "id": "domain_models_imageitem_swift",
+      "community": 4,
+      "norm_label": "imageitem.swift"
+    },
+    {
+      "label": "ImageItem",
+      "file_type": "code",
+      "source_file": "Domain/Models/ImageItem.swift",
+      "source_location": "L4",
+      "id": "models_imageitem_imageitem",
+      "community": 4,
+      "norm_label": "imageitem"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Domain/Models/ImageItem.swift",
+      "source_location": "L11",
+      "id": "models_imageitem_imageitem_init",
+      "community": 4,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "ContentView.swift",
+      "file_type": "code",
+      "source_file": "Presentation/ContentView.swift",
+      "source_location": "L1",
+      "id": "presentation_contentview_swift",
+      "community": 13,
+      "norm_label": "contentview.swift"
+    },
+    {
+      "label": "ContentView",
+      "file_type": "code",
+      "source_file": "Presentation/ContentView.swift",
+      "source_location": "L4",
+      "id": "presentation_contentview_contentview",
+      "community": 13,
+      "norm_label": "contentview"
+    },
+    {
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "view",
+      "community": 0,
+      "norm_label": "view"
+    },
+    {
+      "label": "ContentView_Previews",
+      "file_type": "code",
+      "source_file": "Presentation/ContentView.swift",
+      "source_location": "L49",
+      "id": "presentation_contentview_contentview_previews",
+      "community": 13,
+      "norm_label": "contentview_previews"
+    },
+    {
+      "label": "PreviewProvider",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "previewprovider",
+      "community": 13,
+      "norm_label": "previewprovider"
+    },
+    {
+      "label": "AppViewModel.swift",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L1",
+      "id": "presentation_viewmodels_appviewmodel_swift",
+      "community": 1,
+      "norm_label": "appviewmodel.swift"
+    },
+    {
+      "label": "AppViewModel",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L6",
+      "id": "viewmodels_appviewmodel_appviewmodel",
+      "community": 1,
+      "norm_label": "appviewmodel"
+    },
+    {
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "observableobject",
+      "community": 1,
+      "norm_label": "observableobject"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L33",
+      "id": "viewmodels_appviewmodel_appviewmodel_init",
+      "community": 1,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".setupDatabase()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L40",
+      "id": "viewmodels_appviewmodel_appviewmodel_setupdatabase",
+      "community": 1,
+      "norm_label": ".setupdatabase()"
+    },
+    {
+      "label": ".setupDirectoryMonitor()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L59",
+      "id": "viewmodels_appviewmodel_appviewmodel_setupdirectorymonitor",
+      "community": 1,
+      "norm_label": ".setupdirectorymonitor()"
+    },
+    {
+      "label": ".loadInitialBookmarks()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L68",
+      "id": "viewmodels_appviewmodel_appviewmodel_loadinitialbookmarks",
+      "community": 1,
+      "norm_label": ".loadinitialbookmarks()"
+    },
+    {
+      "label": ".selectFolder()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L75",
+      "id": "viewmodels_appviewmodel_appviewmodel_selectfolder",
+      "community": 1,
+      "norm_label": ".selectfolder()"
+    },
+    {
+      "label": ".refreshFolderContents()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L86",
+      "id": "viewmodels_appviewmodel_appviewmodel_refreshfoldercontents",
+      "community": 1,
+      "norm_label": ".refreshfoldercontents()"
+    },
+    {
+      "label": ".updateDisplayedImages()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L116",
+      "id": "viewmodels_appviewmodel_appviewmodel_updatedisplayedimages",
+      "community": 1,
+      "norm_label": ".updatedisplayedimages()"
+    },
+    {
+      "label": ".loadThumbnailsAndMetadata()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L146",
+      "id": "viewmodels_appviewmodel_appviewmodel_loadthumbnailsandmetadata",
+      "community": 1,
+      "norm_label": ".loadthumbnailsandmetadata()"
+    },
+    {
+      "label": ".selectNextImage()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L257",
+      "id": "viewmodels_appviewmodel_appviewmodel_selectnextimage",
+      "community": 1,
+      "norm_label": ".selectnextimage()"
+    },
+    {
+      "label": ".selectPreviousImage()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L270",
+      "id": "viewmodels_appviewmodel_appviewmodel_selectpreviousimage",
+      "community": 1,
+      "norm_label": ".selectpreviousimage()"
+    },
+    {
+      "label": ".selectFirstImage()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L283",
+      "id": "viewmodels_appviewmodel_appviewmodel_selectfirstimage",
+      "community": 1,
+      "norm_label": ".selectfirstimage()"
+    },
+    {
+      "label": ".selectLastImage()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L290",
+      "id": "viewmodels_appviewmodel_appviewmodel_selectlastimage",
+      "community": 1,
+      "norm_label": ".selectlastimage()"
+    },
+    {
+      "label": ".toggleZoom()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L297",
+      "id": "viewmodels_appviewmodel_appviewmodel_togglezoom",
+      "community": 1,
+      "norm_label": ".togglezoom()"
+    },
+    {
+      "label": ".toggleFullScreen()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L301",
+      "id": "viewmodels_appviewmodel_appviewmodel_togglefullscreen",
+      "community": 1,
+      "norm_label": ".togglefullscreen()"
+    },
+    {
+      "label": ".calculateHistogramForSelected()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L307",
+      "id": "viewmodels_appviewmodel_appviewmodel_calculatehistogramforselected",
+      "community": 1,
+      "norm_label": ".calculatehistogramforselected()"
+    },
+    {
+      "label": ".prefetchAdjacentImages()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L337",
+      "id": "viewmodels_appviewmodel_appviewmodel_prefetchadjacentimages",
+      "community": 1,
+      "norm_label": ".prefetchadjacentimages()"
+    },
+    {
+      "label": ".updateRatingForSelected()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L361",
+      "id": "viewmodels_appviewmodel_appviewmodel_updateratingforselected",
+      "community": 1,
+      "norm_label": ".updateratingforselected()"
+    },
+    {
+      "label": ".toggleTaggedForSelected()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L381",
+      "id": "viewmodels_appviewmodel_appviewmodel_toggletaggedforselected",
+      "community": 1,
+      "norm_label": ".toggletaggedforselected()"
+    },
+    {
+      "label": ".deleteSelectedImage()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L402",
+      "id": "viewmodels_appviewmodel_appviewmodel_deleteselectedimage",
+      "community": 1,
+      "norm_label": ".deleteselectedimage()"
+    },
+    {
+      "label": ".setupKeyboardNotificationObserver()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L431",
+      "id": "viewmodels_appviewmodel_appviewmodel_setupkeyboardnotificationobserver",
+      "community": 1,
+      "norm_label": ".setupkeyboardnotificationobserver()"
+    },
+    {
+      "label": "KeyCode",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L444",
+      "id": "viewmodels_appviewmodel_keycode",
+      "community": 1,
+      "norm_label": "keycode"
+    },
+    {
+      "label": ".handleKeyboardEvent()",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L464",
+      "id": "viewmodels_appviewmodel_appviewmodel_handlekeyboardevent",
+      "community": 1,
+      "norm_label": ".handlekeyboardevent()"
+    },
+    {
+      "label": "ImageDetailView.swift",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L1",
+      "id": "presentation_views_imagedetailview_swift",
+      "community": 0,
+      "norm_label": "imagedetailview.swift"
+    },
+    {
+      "label": "KeyCaptureNSView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L13",
+      "id": "views_imagedetailview_keycapturensview",
+      "community": 0,
+      "norm_label": "keycapturensview"
+    },
+    {
+      "label": "NSView",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "nsview",
+      "community": 0,
+      "norm_label": "nsview"
+    },
+    {
+      "label": "KeyCode",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L16",
+      "id": "views_imagedetailview_keycode",
+      "community": 0,
+      "norm_label": "keycode"
+    },
+    {
+      "label": ".viewDidMoveToWindow()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L25",
+      "id": "views_imagedetailview_keycapturensview_viewdidmovetowindow",
+      "community": 0,
+      "norm_label": ".viewdidmovetowindow()"
+    },
+    {
+      "label": ".keyDown()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L34",
+      "id": "views_imagedetailview_keycapturensview_keydown",
+      "community": 0,
+      "norm_label": ".keydown()"
+    },
+    {
+      "label": "KeyCaptureView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L55",
+      "id": "views_imagedetailview_keycaptureview",
+      "community": 0,
+      "norm_label": "keycaptureview"
+    },
+    {
+      "label": "NSViewRepresentable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "nsviewrepresentable",
+      "community": 0,
+      "norm_label": "nsviewrepresentable"
+    },
+    {
+      "label": ".makeNSView()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L58",
+      "id": "views_imagedetailview_keycaptureview_makensview",
+      "community": 0,
+      "norm_label": ".makensview()"
+    },
+    {
+      "label": ".updateNSView()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L64",
+      "id": "views_imagedetailview_keycaptureview_updatensview",
+      "community": 0,
+      "norm_label": ".updatensview()"
+    },
+    {
+      "label": "ImageDetailView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L71",
+      "id": "views_imagedetailview_imagedetailview",
+      "community": 0,
+      "norm_label": "imagedetailview"
+    },
+    {
+      "label": "DetailsSidebarView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L278",
+      "id": "views_imagedetailview_detailssidebarview",
+      "community": 0,
+      "norm_label": "detailssidebarview"
+    },
+    {
+      "label": ".cullingSection()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L400",
+      "id": "views_imagedetailview_detailssidebarview_cullingsection",
+      "community": 0,
+      "norm_label": ".cullingsection()"
+    },
+    {
+      "label": "SidebarRow",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L449",
+      "id": "views_imagedetailview_sidebarrow",
+      "community": 0,
+      "norm_label": "sidebarrow"
+    },
+    {
+      "label": "HistogramView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L473",
+      "id": "views_imagedetailview_histogramview",
+      "community": 0,
+      "norm_label": "histogramview"
+    },
+    {
+      "label": "HUDField",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L546",
+      "id": "views_imagedetailview_hudfield",
+      "community": 0,
+      "norm_label": "hudfield"
+    },
+    {
+      "label": "NavigationArrowButton",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L562",
+      "id": "views_imagedetailview_navigationarrowbutton",
+      "community": 0,
+      "norm_label": "navigationarrowbutton"
+    },
+    {
+      "label": "KeyableMTKView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L598",
+      "id": "views_imagedetailview_keyablemtkview",
+      "community": 0,
+      "norm_label": "keyablemtkview"
+    },
+    {
+      "label": "MTKView",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "mtkview",
+      "community": 0,
+      "norm_label": "mtkview"
+    },
+    {
+      "label": ".mouseDown()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L604",
+      "id": "views_imagedetailview_keyablemtkview_mousedown",
+      "community": 0,
+      "norm_label": ".mousedown()"
+    },
+    {
+      "label": ".scrollWheel()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L609",
+      "id": "views_imagedetailview_keyablemtkview_scrollwheel",
+      "community": 0,
+      "norm_label": ".scrollwheel()"
+    },
+    {
+      "label": "MetalImageView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L639",
+      "id": "views_imagedetailview_metalimageview",
+      "community": 0,
+      "norm_label": "metalimageview"
+    },
+    {
+      "label": ".makeNSView()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L644",
+      "id": "views_imagedetailview_metalimageview_makensview",
+      "community": 0,
+      "norm_label": ".makensview()"
+    },
+    {
+      "label": ".updateNSView()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L659",
+      "id": "views_imagedetailview_metalimageview_updatensview",
+      "community": 0,
+      "norm_label": ".updatensview()"
+    },
+    {
+      "label": ".makeCoordinator()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L667",
+      "id": "views_imagedetailview_metalimageview_makecoordinator",
+      "community": 0,
+      "norm_label": ".makecoordinator()"
+    },
+    {
+      "label": "Coordinator",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L671",
+      "id": "views_imagedetailview_coordinator",
+      "community": 0,
+      "norm_label": "coordinator"
+    },
+    {
+      "label": "MTKViewDelegate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "mtkviewdelegate",
+      "community": 0,
+      "norm_label": "mtkviewdelegate"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L681",
+      "id": "views_imagedetailview_coordinator_init",
+      "community": 0,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".loadImage()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L688",
+      "id": "views_imagedetailview_coordinator_loadimage",
+      "community": 0,
+      "norm_label": ".loadimage()"
+    },
+    {
+      "label": ".mtkView()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L750",
+      "id": "views_imagedetailview_coordinator_mtkview",
+      "community": 0,
+      "norm_label": ".mtkview()"
+    },
+    {
+      "label": ".draw()",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L752",
+      "id": "views_imagedetailview_coordinator_draw",
+      "community": 0,
+      "norm_label": ".draw()"
+    },
+    {
+      "label": "FolderTreeView.swift",
+      "file_type": "code",
+      "source_file": "Presentation/Views/FolderTreeView.swift",
+      "source_location": "L1",
+      "id": "presentation_views_foldertreeview_swift",
+      "community": 0,
+      "norm_label": "foldertreeview.swift"
+    },
+    {
+      "label": "FolderTreeView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/FolderTreeView.swift",
+      "source_location": "L3",
+      "id": "views_foldertreeview_foldertreeview",
+      "community": 0,
+      "norm_label": "foldertreeview"
+    },
+    {
+      "label": "Color",
+      "file_type": "code",
+      "source_file": "Presentation/Views/FolderTreeView.swift",
+      "source_location": "L94",
+      "id": "views_foldertreeview_color",
+      "community": 0,
+      "norm_label": "color"
+    },
+    {
+      "label": "ImageGridView.swift",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageGridView.swift",
+      "source_location": "L1",
+      "id": "presentation_views_imagegridview_swift",
+      "community": 0,
+      "norm_label": "imagegridview.swift"
+    },
+    {
+      "label": "ImageGridView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageGridView.swift",
+      "source_location": "L3",
+      "id": "views_imagegridview_imagegridview",
+      "community": 0,
+      "norm_label": "imagegridview"
+    },
+    {
+      "label": "FilterButton",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageGridView.swift",
+      "source_location": "L184",
+      "id": "views_imagegridview_filterbutton",
+      "community": 0,
+      "norm_label": "filterbutton"
+    },
+    {
+      "label": "Package Configuration",
+      "file_type": "code",
+      "source_file": "Package.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "package_package",
+      "community": 18,
+      "norm_label": "package configuration"
+    },
+    {
+      "label": "SecurityScopedBookmarkManager",
+      "file_type": "code",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Uses security-scoped bookmarks to persist folder permissions across application launches under macOS Sandbox.",
+      "id": "securityscopedbookmarkmanager_securityscopedbookmarkmanager",
+      "community": 14,
+      "norm_label": "securityscopedbookmarkmanager"
+    },
+    {
+      "label": "AppSettings",
+      "file_type": "code",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "appsettings_appsettings",
+      "community": 15,
+      "norm_label": "appsettings"
+    },
+    {
+      "label": "MemoryCache",
+      "file_type": "code",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "memorycache_memorycache",
+      "community": 15,
+      "norm_label": "memorycache"
+    },
+    {
+      "label": "FileSystemRepositoryProtocol",
+      "file_type": "code",
+      "source_file": "Data/Repositories/FileSystemRepositoryProtocol.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "filesystemrepositoryprotocol_filesystemrepositoryprotocol",
+      "community": 12,
+      "norm_label": "filesystemrepositoryprotocol"
+    },
+    {
+      "label": "SQLiteDatabase",
+      "file_type": "code",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Enables high concurrency and faster writes via Write-Ahead Logging (WAL) and synchronous normal mode.",
+      "id": "sqlitedatabase_sqlitedatabase",
+      "community": 19,
+      "norm_label": "sqlitedatabase"
+    },
+    {
+      "label": "ExifCacheRepositoryProtocol",
+      "file_type": "code",
+      "source_file": "Domain/Repositories/ExifCacheRepositoryProtocol.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "exifcacherepositoryprotocol_exifcacherepositoryprotocol",
+      "community": 20,
+      "norm_label": "exifcacherepositoryprotocol"
+    },
+    {
+      "label": "FolderNode",
+      "file_type": "code",
+      "source_file": "Domain/Models/FolderNode.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "foldernode_foldernode",
+      "community": 12,
+      "norm_label": "foldernode"
+    },
+    {
+      "label": "ImageItem",
+      "file_type": "code",
+      "source_file": "Domain/Models/ImageItem.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "imageitem_imageitem",
+      "community": 12,
+      "norm_label": "imageitem"
+    },
+    {
+      "label": "FolderTreeView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/FolderTreeView.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "foldertreeview_foldertreeview",
+      "community": 14,
+      "norm_label": "foldertreeview"
+    },
+    {
+      "label": "ImageGridView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageGridView.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "imagegridview_imagegridview",
+      "community": 16,
+      "norm_label": "imagegridview"
+    },
+    {
+      "label": "FilterButton",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageGridView.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "imagegridview_filterbutton",
+      "community": 16,
+      "norm_label": "filterbutton"
+    },
+    {
+      "label": "AI Micro-Task Split List",
+      "file_type": "document",
+      "source_file": "TASK_LIST.MD",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "task_list_task_list",
+      "community": 12,
+      "norm_label": "ai micro-task split list"
+    },
+    {
+      "label": "Project Lumina README",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_readme",
+      "community": 21,
+      "norm_label": "project lumina readme"
+    },
+    {
+      "label": "ACDSee Culling Shortcuts",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Provides a keyboard-driven workflow for professional photographers to cull photos efficiently using star ratings, tag flags, and quick arrow key navigation.",
+      "id": "readme_acdsee_culling_shortcuts",
+      "community": 22,
+      "norm_label": "acdsee culling shortcuts"
+    },
+    {
+      "label": "Roo Code Initial Prompt",
+      "file_type": "document",
+      "source_file": "Initial Prompt.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "initial_prompt_initial_prompt",
+      "community": 12,
+      "norm_label": "roo code initial prompt"
+    },
+    {
+      "label": "Project Lumina API/System Specification",
+      "file_type": "document",
+      "source_file": "SPEC.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "spec_spec",
+      "community": 12,
+      "norm_label": "project lumina api/system specification"
+    },
+    {
+      "label": "Zero-Import Architecture",
+      "file_type": "rationale",
+      "source_file": "SPEC.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Avoids slow photo importing process by accessing files directly through macOS Security-Scoped Bookmarks and FSEvents directory monitoring.",
+      "id": "spec_zero_import_architecture",
+      "community": 14,
+      "norm_label": "zero-import architecture"
+    },
+    {
+      "label": "Three-Layer Caching Strategy",
+      "file_type": "rationale",
+      "source_file": "SPEC.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Optimizes performance via: 1) NSCache memory cache for current and preloaded thumbnails, 2) SQLite disk cache for EXIF metadata, and 3) File system for original high-resolution or RAW files.",
+      "id": "spec_three_layer_caching_strategy",
+      "community": 23,
+      "norm_label": "three-layer caching strategy"
+    },
+    {
+      "label": "Look-Ahead Prefetching Engine",
+      "file_type": "rationale",
+      "source_file": "SPEC.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Asynchronously loads metadata and thumbnails for adjacent files (N-2, N-1, N+1, N+2) in the background to enable smooth, lag-free culling transitions.",
+      "id": "spec_look_ahead_prefetching_engine",
+      "community": 24,
+      "norm_label": "look-ahead prefetching engine"
+    },
+    {
+      "label": "Metal Image Rendering",
+      "file_type": "rationale",
+      "source_file": "SPEC.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Uses Core Image and Metal to hardware-accelerate image scaling and rendering, maintaining a smooth 120 FPS frame rate on ProMotion screens.",
+      "id": "spec_metal_image_rendering",
+      "community": 25,
+      "norm_label": "metal image rendering"
+    },
+    {
+      "label": "ProjectLuminaApp",
+      "file_type": "code",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "app_projectluminaapp",
+      "community": 6,
+      "norm_label": "projectluminaapp"
+    },
+    {
+      "label": "AppDelegate",
+      "file_type": "code",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "app_appdelegate",
+      "community": 6,
+      "norm_label": "appdelegate"
+    },
+    {
+      "label": "DirectoryMonitor",
+      "file_type": "code",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "infra_directorymonitor",
+      "community": 6,
+      "norm_label": "directorymonitor"
+    },
+    {
+      "label": "LoggerManager",
+      "file_type": "code",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "infra_loggermanager",
+      "community": 26,
+      "norm_label": "loggermanager"
+    },
+    {
+      "label": "ImageLoaderService",
+      "file_type": "code",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "infra_imageloaderservice",
+      "community": 6,
+      "norm_label": "imageloaderservice"
+    },
+    {
+      "label": "ExifCacheRepository",
+      "file_type": "code",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "data_exifcacherepository",
+      "community": 6,
+      "norm_label": "exifcacherepository"
+    },
+    {
+      "label": "FileSystemRepository",
+      "file_type": "code",
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "data_filesystemrepository",
+      "community": 6,
+      "norm_label": "filesystemrepository"
+    },
+    {
+      "label": "ImageMetadata",
+      "file_type": "code",
+      "source_file": "Domain/Models/ImageMetadata.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "domain_imagemetadata",
+      "community": 6,
+      "norm_label": "imagemetadata"
+    },
+    {
+      "label": "ContentView",
+      "file_type": "code",
+      "source_file": "Presentation/ContentView.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "presentation_contentview",
+      "community": 6,
+      "norm_label": "contentview"
+    },
+    {
+      "label": "AppViewModel",
+      "file_type": "code",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "presentation_appviewmodel",
+      "community": 6,
+      "norm_label": "appviewmodel"
+    },
+    {
+      "label": "ImageDetailView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "presentation_imagedetailview",
+      "community": 6,
+      "norm_label": "imagedetailview"
+    },
+    {
+      "label": "MetalImageView",
+      "file_type": "code",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "presentation_metalimageview",
+      "community": 6,
+      "norm_label": "metalimageview"
+    },
+    {
+      "label": "Project Lumina Wiki",
+      "file_type": "document",
+      "source_file": "wiki.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_project_lumina",
+      "community": 27,
+      "norm_label": "project lumina wiki"
+    },
+    {
+      "label": "Zero-Import Architecture",
+      "file_type": "document",
+      "source_file": "wiki.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_zero_import_architecture",
+      "community": 6,
+      "norm_label": "zero-import architecture"
+    },
+    {
+      "label": "Three-Layer Caching",
+      "file_type": "document",
+      "source_file": "wiki.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_three_layer_caching",
+      "community": 6,
+      "norm_label": "three-layer caching"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_projectluminaapp_swift",
+      "target": "app_projectluminaapp_appdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "app_projectluminaapp_swift",
+      "target": "app_projectluminaapp_projectluminaapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_projectluminaapp_appdelegate",
+      "target": "nsobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_projectluminaapp_appdelegate",
+      "target": "nsapplicationdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_projectluminaapp_appdelegate",
+      "target": "app_projectluminaapp_appdelegate_applicationdidfinishlaunching",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "app_projectluminaapp_appdelegate",
+      "target": "app_projectluminaapp_appdelegate_applicationwillterminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "app_projectluminaapp_appdelegate",
+      "target": "app_projectluminaapp_appdelegate_iseditingtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "cache_memorycache_cacheentry",
+      "target": "nsobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L671",
+      "weight": 1.0,
+      "source": "views_imagedetailview_coordinator",
+      "target": "nsobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "app_projectluminaapp_appdelegate_applicationdidfinishlaunching",
+      "target": "app_projectluminaapp_appdelegate_iseditingtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "app_projectluminaapp_projectluminaapp",
+      "target": "app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_security_securityscopedbookmarkmanager_swift",
+      "target": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager",
+      "target": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager",
+      "target": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_selectfolder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager",
+      "target": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_savebookmark",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager",
+      "target": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_loadsavedbookmarks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager",
+      "target": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_performaccessingsecurityscopedresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "configuration_appsettings_appsettings",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "configuration_appsettings_appconfiguration",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "configuration_appsettings_filesystemsettings",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "configuration_appsettings_renderingsettings",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "configuration_appsettings_thumbnailsizesettings",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "configuration_appsettings_loggingsettings",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "filesystem_directorymonitor_directorymonitor",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loglevel",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loggermanager",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_imageloaderservice",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_concurrencylimiter",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/FileSystemRepositoryProtocol.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "repositories_filesystemrepositoryprotocol_filesystemrepositoryprotocol",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Repositories/ExifCacheRepositoryProtocol.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "repositories_exifcacherepositoryprotocol_exifcacherepositoryprotocol",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/FolderNode.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "models_foldernode_foldernode",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/ImageMetadata.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "models_imagemetadata_imagemetadata",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/ImageItem.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "models_imageitem_imageitem",
+      "target": "sendable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_selectfolder",
+      "target": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_savebookmark",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "App/Security/SecurityScopedBookmarkManager.swift",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_loadsavedbookmarks",
+      "target": "security_securityscopedbookmarkmanager_securityscopedbookmarkmanager_savebookmark",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "infrastructure_configuration_appsettings_swift",
+      "target": "configuration_appsettings_appsettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "infrastructure_configuration_appsettings_swift",
+      "target": "configuration_appsettings_appconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "infrastructure_configuration_appsettings_swift",
+      "target": "configuration_appsettings_codingkeys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "infrastructure_configuration_appsettings_swift",
+      "target": "configuration_appsettings_filesystemsettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "infrastructure_configuration_appsettings_swift",
+      "target": "configuration_appsettings_renderingsettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "infrastructure_configuration_appsettings_swift",
+      "target": "configuration_appsettings_thumbnailsizesettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "infrastructure_configuration_appsettings_swift",
+      "target": "configuration_appsettings_loggingsettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "configuration_appsettings_appsettings",
+      "target": "codable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "configuration_appsettings_appconfiguration",
+      "target": "codable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "configuration_appsettings_filesystemsettings",
+      "target": "codable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "configuration_appsettings_renderingsettings",
+      "target": "codable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "configuration_appsettings_thumbnailsizesettings",
+      "target": "codable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "configuration_appsettings_loggingsettings",
+      "target": "codable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "codingkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_maxmemorycachemegabytes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_diskcachelimitgigabytes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_supportedextensions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_enablerealtimefsevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_fseventsdebouncemilliseconds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_width",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_height",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_targetfps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_thumbnailsize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_usemetalacceleration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_subsystem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_loglevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_logtodisk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_appconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_filesystem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_rendering",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Configuration/AppSettings.swift",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "configuration_appsettings_codingkeys",
+      "target": "configuration_appsettings_codingkeys_logging",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loglevel",
+      "target": "string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loggermanager_log",
+      "target": "string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "infrastructure_cache_memorycache_swift",
+      "target": "cache_memorycache_memorycache",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "infrastructure_cache_memorycache_swift",
+      "target": "cache_memorycache_cacheentry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "cache_memorycache_memorycache",
+      "target": "cache_memorycache_memorycache_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "cache_memorycache_memorycache",
+      "target": "cache_memorycache_memorycache_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "cache_memorycache_memorycache",
+      "target": "cache_memorycache_memorycache_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "cache_memorycache_memorycache",
+      "target": "cache_memorycache_memorycache_clear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "cache_memorycache_cacheentry",
+      "target": "cache_memorycache_cacheentry_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "cache_memorycache_memorycache_set",
+      "target": "cache_memorycache_cacheentry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "repositories_filesystemrepository_filesystemrepository_loadsubfolders",
+      "target": "cache_memorycache_memorycache_set"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "repositories_filesystemrepository_filesystemrepository_loadimages",
+      "target": "cache_memorycache_memorycache_set"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "infrastructure_filesystem_directorymonitor_swift",
+      "target": "filesystem_directorymonitor_directorymonitor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "filesystem_directorymonitor_directorymonitor",
+      "target": "filesystem_directorymonitor_directorymonitor_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "filesystem_directorymonitor_directorymonitor",
+      "target": "filesystem_directorymonitor_directorymonitor_startmonitoring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "filesystem_directorymonitor_directorymonitor",
+      "target": "filesystem_directorymonitor_directorymonitor_stopmonitoring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "filesystem_directorymonitor_directorymonitor",
+      "target": "filesystem_directorymonitor_directorymonitor_handlefsevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "filesystem_directorymonitor_directorymonitor",
+      "target": "filesystem_directorymonitor_directorymonitor_deinit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "filesystem_directorymonitor_directorymonitor_startmonitoring",
+      "target": "filesystem_directorymonitor_directorymonitor_stopmonitoring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "filesystem_directorymonitor_directorymonitor_startmonitoring",
+      "target": "filesystem_directorymonitor_directorymonitor_handlefsevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/FileSystem/DirectoryMonitor.swift",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "filesystem_directorymonitor_directorymonitor_deinit",
+      "target": "filesystem_directorymonitor_directorymonitor_stopmonitoring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "infrastructure_logging_loggermanager_swift",
+      "target": "logging_loggermanager_loglevel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "infrastructure_logging_loggermanager_swift",
+      "target": "logging_loggermanager_loggermanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loglevel",
+      "target": "logging_loggermanager_loglevel_debug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loglevel",
+      "target": "logging_loggermanager_loglevel_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loglevel",
+      "target": "logging_loggermanager_loglevel_error",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loggermanager_log",
+      "target": "logging_loggermanager_loglevel_debug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loggermanager_log",
+      "target": "logging_loggermanager_loglevel_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loggermanager_setuplogfile",
+      "target": "logging_loggermanager_loglevel_error",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loggermanager_log",
+      "target": "logging_loggermanager_loglevel_error",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loggermanager",
+      "target": "logging_loggermanager_loggermanager_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loggermanager",
+      "target": "logging_loggermanager_loggermanager_setuplogfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loggermanager",
+      "target": "logging_loggermanager_loggermanager_log",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loggermanager",
+      "target": "logging_loggermanager_loggermanager_deinit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loggermanager_init",
+      "target": "logging_loggermanager_loggermanager_setuplogfile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Logging/LoggerManager.swift",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "logging_loggermanager_loggermanager_setuplogfile",
+      "target": "logging_loggermanager_loggermanager_log",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "infrastructure_services_imageloaderservice_swift",
+      "target": "services_imageloaderservice_imageloaderservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "infrastructure_services_imageloaderservice_swift",
+      "target": "services_imageloaderservice_concurrencylimiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_imageloaderservice",
+      "target": "services_imageloaderservice_imageloaderservice_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_imageloaderservice",
+      "target": "services_imageloaderservice_imageloaderservice_loadthumbnail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_imageloaderservice",
+      "target": "services_imageloaderservice_imageloaderservice_extractmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_imageloaderservice",
+      "target": "services_imageloaderservice_imageloaderservice_calculateluminancehistogram",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_imageloaderservice_loadthumbnail",
+      "target": "services_imageloaderservice_concurrencylimiter_enter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_imageloaderservice_loadthumbnail",
+      "target": "services_imageloaderservice_concurrencylimiter_exit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_imageloaderservice_extractmetadata",
+      "target": "services_imageloaderservice_concurrencylimiter_enter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_imageloaderservice_extractmetadata",
+      "target": "services_imageloaderservice_concurrencylimiter_exit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_imageloaderservice_extractmetadata",
+      "target": "models_imagemetadata_imagemetadata"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_concurrencylimiter",
+      "target": "services_imageloaderservice_concurrencylimiter_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_concurrencylimiter",
+      "target": "services_imageloaderservice_concurrencylimiter_enter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": "L171",
+      "weight": 1.0,
+      "source": "services_imageloaderservice_concurrencylimiter",
+      "target": "services_imageloaderservice_concurrencylimiter_exit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "data_repositories_exifcacherepository_swift",
+      "target": "repositories_exifcacherepository_exifcacherepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "repositories_exifcacherepository_exifcacherepository",
+      "target": "exifcacherepositoryprotocol",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "repositories_exifcacherepository_exifcacherepository",
+      "target": "repositories_exifcacherepository_exifcacherepository_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "repositories_exifcacherepository_exifcacherepository",
+      "target": "repositories_exifcacherepository_exifcacherepository_getmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "repositories_exifcacherepository_exifcacherepository",
+      "target": "repositories_exifcacherepository_exifcacherepository_savemetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "repositories_exifcacherepository_exifcacherepository",
+      "target": "repositories_exifcacherepository_exifcacherepository_updaterating",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "repositories_exifcacherepository_exifcacherepository",
+      "target": "repositories_exifcacherepository_exifcacherepository_updatetagged",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_setupdatabase",
+      "target": "repositories_exifcacherepository_exifcacherepository"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "repositories_exifcacherepository_exifcacherepository_getmetadata",
+      "target": "models_imagemetadata_imagemetadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/FileSystemRepositoryProtocol.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "data_repositories_filesystemrepositoryprotocol_swift",
+      "target": "repositories_filesystemrepositoryprotocol_filesystemrepositoryprotocol",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "data_repositories_filesystemrepository_swift",
+      "target": "repositories_filesystemrepository_filesystemrepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "repositories_filesystemrepository_filesystemrepository",
+      "target": "filesystemrepositoryprotocol",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "repositories_filesystemrepository_filesystemrepository",
+      "target": "repositories_filesystemrepository_filesystemrepository_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "repositories_filesystemrepository_filesystemrepository",
+      "target": "repositories_filesystemrepository_filesystemrepository_loadsubfolders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "repositories_filesystemrepository_filesystemrepository",
+      "target": "repositories_filesystemrepository_filesystemrepository_loadimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "repositories_filesystemrepository_filesystemrepository_loadsubfolders",
+      "target": "models_foldernode_foldernode"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Data/Repositories/FileSystemRepository.swift",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "repositories_filesystemrepository_filesystemrepository_loadimages",
+      "target": "models_imageitem_imageitem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "data_local_sqlitedatabase_swift",
+      "target": "local_sqlitedatabase_sqlitedatabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "local_sqlitedatabase_sqlitedatabase",
+      "target": "local_sqlitedatabase_sqlitedatabase_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "local_sqlitedatabase_sqlitedatabase",
+      "target": "local_sqlitedatabase_sqlitedatabase_deinit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "local_sqlitedatabase_sqlitedatabase",
+      "target": "local_sqlitedatabase_sqlitedatabase_executestatic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "local_sqlitedatabase_sqlitedatabase",
+      "target": "local_sqlitedatabase_sqlitedatabase_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "local_sqlitedatabase_sqlitedatabase",
+      "target": "local_sqlitedatabase_sqlitedatabase_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_setupdatabase",
+      "target": "local_sqlitedatabase_sqlitedatabase"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Data/Local/SQLiteDatabase.swift",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "local_sqlitedatabase_sqlitedatabase_init",
+      "target": "local_sqlitedatabase_sqlitedatabase_executestatic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Repositories/ExifCacheRepositoryProtocol.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "domain_repositories_exifcacherepositoryprotocol_swift",
+      "target": "repositories_exifcacherepositoryprotocol_exifcacherepositoryprotocol",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/FolderNode.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "domain_models_foldernode_swift",
+      "target": "models_foldernode_foldernode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/FolderNode.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "models_foldernode_foldernode",
+      "target": "identifiable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/FolderNode.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "models_foldernode_foldernode",
+      "target": "equatable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/FolderNode.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "models_foldernode_foldernode",
+      "target": "hashable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/FolderNode.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "models_foldernode_foldernode",
+      "target": "models_foldernode_foldernode_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/ImageItem.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "models_imageitem_imageitem",
+      "target": "identifiable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/ImageMetadata.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "models_imagemetadata_imagemetadata",
+      "target": "equatable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/ImageItem.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "models_imageitem_imageitem",
+      "target": "equatable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/ImageMetadata.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "models_imagemetadata_imagemetadata",
+      "target": "hashable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/ImageItem.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "models_imageitem_imageitem",
+      "target": "hashable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/ImageMetadata.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "domain_models_imagemetadata_swift",
+      "target": "models_imagemetadata_imagemetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/ImageMetadata.swift",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "models_imagemetadata_imagemetadata",
+      "target": "models_imagemetadata_imagemetadata_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L366",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_updateratingforselected",
+      "target": "models_imagemetadata_imagemetadata"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L386",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_toggletaggedforselected",
+      "target": "models_imagemetadata_imagemetadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/ImageItem.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "domain_models_imageitem_swift",
+      "target": "models_imageitem_imageitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Domain/Models/ImageItem.swift",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "models_imageitem_imageitem",
+      "target": "models_imageitem_imageitem_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ContentView.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "presentation_contentview_swift",
+      "target": "presentation_contentview_contentview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ContentView.swift",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "presentation_contentview_swift",
+      "target": "presentation_contentview_contentview_previews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ContentView.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "presentation_contentview_contentview",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "views_imagedetailview_imagedetailview",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L278",
+      "weight": 1.0,
+      "source": "views_imagedetailview_detailssidebarview",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L449",
+      "weight": 1.0,
+      "source": "views_imagedetailview_sidebarrow",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L473",
+      "weight": 1.0,
+      "source": "views_imagedetailview_histogramview",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L546",
+      "weight": 1.0,
+      "source": "views_imagedetailview_hudfield",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L562",
+      "weight": 1.0,
+      "source": "views_imagedetailview_navigationarrowbutton",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/FolderTreeView.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "views_foldertreeview_foldertreeview",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageGridView.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "views_imagegridview_imagegridview",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageGridView.swift",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "views_imagegridview_filterbutton",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ContentView.swift",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "presentation_contentview_contentview_previews",
+      "target": "previewprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "presentation_viewmodels_appviewmodel_swift",
+      "target": "viewmodels_appviewmodel_appviewmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L444",
+      "weight": 1.0,
+      "source": "presentation_viewmodels_appviewmodel_swift",
+      "target": "viewmodels_appviewmodel_keycode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "observableobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_setupdatabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_setupdirectorymonitor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_loadinitialbookmarks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_selectfolder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_refreshfoldercontents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_updatedisplayedimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_loadthumbnailsandmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L257",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_selectnextimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L270",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_selectpreviousimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L283",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_selectfirstimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L290",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_selectlastimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L297",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_togglezoom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L301",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_togglefullscreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L307",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_calculatehistogramforselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L337",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_prefetchadjacentimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L361",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_updateratingforselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L381",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_toggletaggedforselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L402",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_deleteselectedimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L431",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_setupkeyboardnotificationobserver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L464",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel",
+      "target": "viewmodels_appviewmodel_appviewmodel_handlekeyboardevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_init",
+      "target": "viewmodels_appviewmodel_appviewmodel_setupdatabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_init",
+      "target": "viewmodels_appviewmodel_appviewmodel_setupdirectorymonitor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_init",
+      "target": "viewmodels_appviewmodel_appviewmodel_loadinitialbookmarks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_init",
+      "target": "viewmodels_appviewmodel_appviewmodel_setupkeyboardnotificationobserver",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_setupdirectorymonitor",
+      "target": "viewmodels_appviewmodel_appviewmodel_refreshfoldercontents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_loadinitialbookmarks",
+      "target": "viewmodels_appviewmodel_appviewmodel_selectfolder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_selectfolder",
+      "target": "viewmodels_appviewmodel_appviewmodel_refreshfoldercontents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_refreshfoldercontents",
+      "target": "viewmodels_appviewmodel_appviewmodel_updatedisplayedimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_refreshfoldercontents",
+      "target": "viewmodels_appviewmodel_appviewmodel_loadthumbnailsandmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L168",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_loadthumbnailsandmetadata",
+      "target": "viewmodels_appviewmodel_appviewmodel_updatedisplayedimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L375",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_updateratingforselected",
+      "target": "viewmodels_appviewmodel_appviewmodel_updatedisplayedimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L396",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_toggletaggedforselected",
+      "target": "viewmodels_appviewmodel_appviewmodel_updatedisplayedimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L425",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_deleteselectedimage",
+      "target": "viewmodels_appviewmodel_appviewmodel_updatedisplayedimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L357",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_prefetchadjacentimages",
+      "target": "viewmodels_appviewmodel_appviewmodel_loadthumbnailsandmetadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L266",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_selectnextimage",
+      "target": "viewmodels_appviewmodel_appviewmodel_calculatehistogramforselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_selectnextimage",
+      "target": "viewmodels_appviewmodel_appviewmodel_prefetchadjacentimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L469",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_handlekeyboardevent",
+      "target": "viewmodels_appviewmodel_appviewmodel_selectnextimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L279",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_selectpreviousimage",
+      "target": "viewmodels_appviewmodel_appviewmodel_calculatehistogramforselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L280",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_selectpreviousimage",
+      "target": "viewmodels_appviewmodel_appviewmodel_prefetchadjacentimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L467",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_handlekeyboardevent",
+      "target": "viewmodels_appviewmodel_appviewmodel_selectpreviousimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L286",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_selectfirstimage",
+      "target": "viewmodels_appviewmodel_appviewmodel_calculatehistogramforselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L287",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_selectfirstimage",
+      "target": "viewmodels_appviewmodel_appviewmodel_prefetchadjacentimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L471",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_handlekeyboardevent",
+      "target": "viewmodels_appviewmodel_appviewmodel_selectfirstimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L293",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_selectlastimage",
+      "target": "viewmodels_appviewmodel_appviewmodel_calculatehistogramforselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L294",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_selectlastimage",
+      "target": "viewmodels_appviewmodel_appviewmodel_prefetchadjacentimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L473",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_handlekeyboardevent",
+      "target": "viewmodels_appviewmodel_appviewmodel_selectlastimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L483",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_handlekeyboardevent",
+      "target": "viewmodels_appviewmodel_appviewmodel_togglezoom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L481",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_handlekeyboardevent",
+      "target": "viewmodels_appviewmodel_appviewmodel_togglefullscreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L426",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_deleteselectedimage",
+      "target": "viewmodels_appviewmodel_appviewmodel_calculatehistogramforselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L485",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_handlekeyboardevent",
+      "target": "viewmodels_appviewmodel_appviewmodel_updateratingforselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L497",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_handlekeyboardevent",
+      "target": "viewmodels_appviewmodel_appviewmodel_toggletaggedforselected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L499",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_handlekeyboardevent",
+      "target": "viewmodels_appviewmodel_appviewmodel_deleteselectedimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": "L439",
+      "weight": 1.0,
+      "source": "viewmodels_appviewmodel_appviewmodel_setupkeyboardnotificationobserver",
+      "target": "viewmodels_appviewmodel_appviewmodel_handlekeyboardevent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "presentation_views_imagedetailview_swift",
+      "target": "views_imagedetailview_keycapturensview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "presentation_views_imagedetailview_swift",
+      "target": "views_imagedetailview_keycode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "presentation_views_imagedetailview_swift",
+      "target": "views_imagedetailview_keycaptureview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "presentation_views_imagedetailview_swift",
+      "target": "views_imagedetailview_imagedetailview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L278",
+      "weight": 1.0,
+      "source": "presentation_views_imagedetailview_swift",
+      "target": "views_imagedetailview_detailssidebarview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L449",
+      "weight": 1.0,
+      "source": "presentation_views_imagedetailview_swift",
+      "target": "views_imagedetailview_sidebarrow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L473",
+      "weight": 1.0,
+      "source": "presentation_views_imagedetailview_swift",
+      "target": "views_imagedetailview_histogramview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L546",
+      "weight": 1.0,
+      "source": "presentation_views_imagedetailview_swift",
+      "target": "views_imagedetailview_hudfield",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L562",
+      "weight": 1.0,
+      "source": "presentation_views_imagedetailview_swift",
+      "target": "views_imagedetailview_navigationarrowbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L598",
+      "weight": 1.0,
+      "source": "presentation_views_imagedetailview_swift",
+      "target": "views_imagedetailview_keyablemtkview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L639",
+      "weight": 1.0,
+      "source": "presentation_views_imagedetailview_swift",
+      "target": "views_imagedetailview_metalimageview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L671",
+      "weight": 1.0,
+      "source": "presentation_views_imagedetailview_swift",
+      "target": "views_imagedetailview_coordinator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "views_imagedetailview_keycapturensview",
+      "target": "nsview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "views_imagedetailview_keycapturensview",
+      "target": "views_imagedetailview_keycapturensview_viewdidmovetowindow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "views_imagedetailview_keycapturensview",
+      "target": "views_imagedetailview_keycapturensview_keydown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "views_imagedetailview_keycaptureview_makensview",
+      "target": "views_imagedetailview_keycapturensview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "views_imagedetailview_keycaptureview",
+      "target": "nsviewrepresentable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "views_imagedetailview_keycaptureview",
+      "target": "views_imagedetailview_keycaptureview_makensview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "views_imagedetailview_keycaptureview",
+      "target": "views_imagedetailview_keycaptureview_updatensview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L639",
+      "weight": 1.0,
+      "source": "views_imagedetailview_metalimageview",
+      "target": "nsviewrepresentable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L400",
+      "weight": 1.0,
+      "source": "views_imagedetailview_detailssidebarview",
+      "target": "views_imagedetailview_detailssidebarview_cullingsection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L598",
+      "weight": 1.0,
+      "source": "views_imagedetailview_keyablemtkview",
+      "target": "mtkview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L604",
+      "weight": 1.0,
+      "source": "views_imagedetailview_keyablemtkview",
+      "target": "views_imagedetailview_keyablemtkview_mousedown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L609",
+      "weight": 1.0,
+      "source": "views_imagedetailview_keyablemtkview",
+      "target": "views_imagedetailview_keyablemtkview_scrollwheel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L645",
+      "weight": 1.0,
+      "source": "views_imagedetailview_metalimageview_makensview",
+      "target": "views_imagedetailview_keyablemtkview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L644",
+      "weight": 1.0,
+      "source": "views_imagedetailview_metalimageview",
+      "target": "views_imagedetailview_metalimageview_makensview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L659",
+      "weight": 1.0,
+      "source": "views_imagedetailview_metalimageview",
+      "target": "views_imagedetailview_metalimageview_updatensview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L667",
+      "weight": 1.0,
+      "source": "views_imagedetailview_metalimageview",
+      "target": "views_imagedetailview_metalimageview_makecoordinator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L654",
+      "weight": 1.0,
+      "source": "views_imagedetailview_metalimageview_makensview",
+      "target": "views_imagedetailview_coordinator_loadimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L664",
+      "weight": 1.0,
+      "source": "views_imagedetailview_metalimageview_updatensview",
+      "target": "views_imagedetailview_coordinator_loadimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L668",
+      "weight": 1.0,
+      "source": "views_imagedetailview_metalimageview_makecoordinator",
+      "target": "views_imagedetailview_coordinator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L671",
+      "weight": 1.0,
+      "source": "views_imagedetailview_coordinator",
+      "target": "mtkviewdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L681",
+      "weight": 1.0,
+      "source": "views_imagedetailview_coordinator",
+      "target": "views_imagedetailview_coordinator_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L688",
+      "weight": 1.0,
+      "source": "views_imagedetailview_coordinator",
+      "target": "views_imagedetailview_coordinator_loadimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L750",
+      "weight": 1.0,
+      "source": "views_imagedetailview_coordinator",
+      "target": "views_imagedetailview_coordinator_mtkview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": "L752",
+      "weight": 1.0,
+      "source": "views_imagedetailview_coordinator",
+      "target": "views_imagedetailview_coordinator_draw",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/FolderTreeView.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "presentation_views_foldertreeview_swift",
+      "target": "views_foldertreeview_foldertreeview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/FolderTreeView.swift",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "presentation_views_foldertreeview_swift",
+      "target": "views_foldertreeview_color",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageGridView.swift",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "presentation_views_imagegridview_swift",
+      "target": "views_imagegridview_imagegridview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Presentation/Views/ImageGridView.swift",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "presentation_views_imagegridview_swift",
+      "target": "views_imagegridview_filterbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Presentation/Views/FolderTreeView.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "foldertreeview_foldertreeview",
+      "target": "securityscopedbookmarkmanager_securityscopedbookmarkmanager"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "SPEC.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "spec_zero_import_architecture",
+      "target": "securityscopedbookmarkmanager_securityscopedbookmarkmanager"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Infrastructure/Cache/MemoryCache.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "memorycache_memorycache",
+      "target": "appsettings_appsettings"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Data/Repositories/FileSystemRepositoryProtocol.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "filesystemrepositoryprotocol_filesystemrepositoryprotocol",
+      "target": "foldernode_foldernode"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Data/Repositories/FileSystemRepositoryProtocol.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "filesystemrepositoryprotocol_filesystemrepositoryprotocol",
+      "target": "imageitem_imageitem"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SPEC.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "spec_spec",
+      "target": "foldernode_foldernode"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "SPEC.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "spec_spec",
+      "target": "imageitem_imageitem"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Presentation/Views/ImageGridView.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "imagegridview_imagegridview",
+      "target": "imagegridview_filterbutton"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "TASK_LIST.MD",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "task_list_task_list",
+      "target": "spec_spec"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Initial Prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "initial_prompt_initial_prompt",
+      "target": "task_list_task_list"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Initial Prompt.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "initial_prompt_initial_prompt",
+      "target": "spec_spec"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "app_projectluminaapp",
+      "target": "presentation_contentview"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "App/ProjectLuminaApp.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "app_appdelegate",
+      "target": "presentation_appviewmodel"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "presentation_appviewmodel",
+      "target": "infra_directorymonitor"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "presentation_appviewmodel",
+      "target": "infra_imageloaderservice"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Infrastructure/Services/ImageLoaderService.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "infra_imageloaderservice",
+      "target": "domain_imagemetadata"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "presentation_appviewmodel",
+      "target": "data_exifcacherepository"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Data/Repositories/ExifCacheRepository.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "data_exifcacherepository",
+      "target": "domain_imagemetadata"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "wiki.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_three_layer_caching",
+      "target": "data_exifcacherepository"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Presentation/ViewModels/AppViewModel.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "presentation_appviewmodel",
+      "target": "data_filesystemrepository"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "wiki.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_zero_import_architecture",
+      "target": "data_filesystemrepository"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Presentation/ContentView.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "presentation_contentview",
+      "target": "presentation_appviewmodel"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Presentation/ContentView.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "presentation_contentview",
+      "target": "presentation_imagedetailview"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "Presentation/Views/ImageDetailView.swift",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "presentation_imagedetailview",
+      "target": "presentation_metalimageview"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "domain_model_entities",
+      "label": "Domain Model Entities",
+      "nodes": [
+        "foldernode_foldernode",
+        "imageitem_imageitem",
+        "imagemetadata_imagemetadata"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "Domain/Models/FolderNode.swift"
+    },
+    {
+      "id": "fast_keyboard_culling_workflow",
+      "label": "Fast Keyboard Culling Workflow",
+      "nodes": [
+        "appviewmodel_appviewmodel",
+        "imagedetailview_imagedetailview",
+        "imagegridview_imagegridview",
+        "readme_acdsee_culling_shortcuts"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "README.md"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "/Users/shawnwang/Documents/agy/image3/Package.swift": {
+    "mtime": 1779892538.884595,
+    "hash": "c4487eb4655f0c469f8f220587731c38"
+  },
+  "/Users/shawnwang/Documents/agy/image3/App/ProjectLuminaApp.swift": {
+    "mtime": 1780323657.6148467,
+    "hash": "e320ee055be40eed704e09f11211a7fd"
+  },
+  "/Users/shawnwang/Documents/agy/image3/App/Security/SecurityScopedBookmarkManager.swift": {
+    "mtime": 1779892616.945614,
+    "hash": "f53f662cf5cb0374ffbd4c76656de6fc"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Infrastructure/Configuration/AppSettings.swift": {
+    "mtime": 1779806288.582949,
+    "hash": "7149b3f2701bfff7681ba43b994cb956"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Infrastructure/Cache/MemoryCache.swift": {
+    "mtime": 1779806329.5327394,
+    "hash": "e99146d5a6cc40d92cde49ccf87e2f8c"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Infrastructure/FileSystem/DirectoryMonitor.swift": {
+    "mtime": 1780325408.4879959,
+    "hash": "af87b53901af941d136399f7af5495c0"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Infrastructure/Logging/LoggerManager.swift": {
+    "mtime": 1780325063.976228,
+    "hash": "6296e6268762a9276ef850891b7df61d"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Infrastructure/Services/ImageLoaderService.swift": {
+    "mtime": 1780325338.4912407,
+    "hash": "e165f85edd73d04eafa3a18c6dd0c5c8"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Data/Repositories/ExifCacheRepository.swift": {
+    "mtime": 1780325351.4665127,
+    "hash": "8328101924c3f274e98407d8652e2558"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Data/Repositories/FileSystemRepositoryProtocol.swift": {
+    "mtime": 1779806301.8561573,
+    "hash": "bc2bc423176b6c7cf99425fb1519e364"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Data/Repositories/FileSystemRepository.swift": {
+    "mtime": 1780325279.9941711,
+    "hash": "fc9550ee450589b137cd42a284d36f88"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Data/Local/SQLiteDatabase.swift": {
+    "mtime": 1779894075.1855693,
+    "hash": "9f811c78c485191dc1783a2c902fc5da"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Domain/Repositories/ExifCacheRepositoryProtocol.swift": {
+    "mtime": 1779893738.3168895,
+    "hash": "79d05378e072d2b09ea2458ce732a282"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Domain/Models/FolderNode.swift": {
+    "mtime": 1779806298.392427,
+    "hash": "7fb0dab6d7e3aa1996fc7f746869b2a1"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Domain/Models/ImageMetadata.swift": {
+    "mtime": 1780325321.6852524,
+    "hash": "94131fdf3ad5d4a6c1a700786733be6f"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Domain/Models/ImageItem.swift": {
+    "mtime": 1779806299.7349758,
+    "hash": "b2943d306264f8a56940df2828b788ab"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Presentation/ContentView.swift": {
+    "mtime": 1780323659.622995,
+    "hash": "9834ebb49176074b9b80f3ba09c6dc17"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Presentation/ViewModels/AppViewModel.swift": {
+    "mtime": 1780325416.806162,
+    "hash": "56e3d4e46b8338739ad22c1c78976c40"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Presentation/Views/ImageDetailView.swift": {
+    "mtime": 1780325697.8611588,
+    "hash": "47275a75affd671459d9dc0309407039"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Presentation/Views/FolderTreeView.swift": {
+    "mtime": 1779806339.1287959,
+    "hash": "629e7a91a447e817b8fa9794a15640e6"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Presentation/Views/ImageGridView.swift": {
+    "mtime": 1779893794.4036455,
+    "hash": "7e63c68df29dc2e96fc2399ea2f2426c"
+  },
+  "/Users/shawnwang/Documents/agy/image3/wiki.md": {
+    "mtime": 1780326297.7635987,
+    "hash": "d20665480200b7f2f3c0f1bc7a714fcf"
+  },
+  "/Users/shawnwang/Documents/agy/image3/TASK_LIST.MD": {
+    "mtime": 1779893702.9337306,
+    "hash": "d298fca833f08d0fa3191f77f1660f1d"
+  },
+  "/Users/shawnwang/Documents/agy/image3/README.md": {
+    "mtime": 1779893710.5684333,
+    "hash": "64a60e3771e1c7a9c49a8d6842ea0b5d"
+  },
+  "/Users/shawnwang/Documents/agy/image3/Initial Prompt.md": {
+    "mtime": 1779805948.4136329,
+    "hash": "823c3cab1cc6ba05a55963c999709165"
+  },
+  "/Users/shawnwang/Documents/agy/image3/SPEC.md": {
+    "mtime": 1779893697.9762094,
+    "hash": "8ee75ffb1872a09d3603633a3c4c487b"
+  }
+}

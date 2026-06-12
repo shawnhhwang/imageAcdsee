@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        
+        
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:image3}",
+            "name": "Debug ProjectLumina",
+            "target": "ProjectLumina",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug ProjectLumina"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:image3}",
+            "name": "Release ProjectLumina",
+            "target": "ProjectLumina",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release ProjectLumina"
+        }
+    ]
+}

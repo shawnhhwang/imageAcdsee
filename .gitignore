@@ -1,0 +1,17 @@
+# Xcode
+*.xcworkspace
+*.xcuserdatad
+*.moved-aside
+DerivedData/
+.build/
+*.xcodeproj/project.xcworkspace/
+
+# SwiftPM
+.build/
+
+# macOS
+.DS_Store
+
+# Graphify
+graphify-out/.*
+
